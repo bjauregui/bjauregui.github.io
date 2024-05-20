@@ -21,7 +21,7 @@ repository               : "bjauregui/bjauregui.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "me.png"
+  avatar           : "avatar.png"
   name             : "Benjamin Jauregui"
   pronouns         : # example: "he/him"  
   bio              : "PhD(c) student at University of Chile. Interested in algorithms and complexity."
