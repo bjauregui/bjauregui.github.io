@@ -11,35 +11,34 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Mathematical Modeling,  University of Chile, 2026 (expected)
+* M.S. in Applied Maths, University of Chile, 2022.
+* Mathematical Engineering, Universidad de Chile, 2022.
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Autumn 2018-now: Assistant teacher
+  * University of Chile
+  * Duties includes: Weekly class to solve problems in different courses, including: Computational Complexity (x2), Theory of Computing, Discrete Mathematics, Mixed-Integer Programming, Combinatorial Algorithms, Algebra, Calculus, Multivariable Calculus, Linear algebra, Probabilistic and Statics, etc.
 
 * Fall 2015: Research Assistant
   * Github University
   * Duties included: Merging pull requests
   * Supervisor: Professor Hub
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* January-February 2020: Research Assistant
+  * Alicanto Labs - Universidad Adolfo Ibañez
+  * Duties included: 
+ 
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Python (including scientific libraries)
+* Julia
+  * Improve running time 
+  * Minimize allocations
+  * Meta programming
+* Strong mathematical knowledge to model several problems from economics, assignments, mining, etc.
 
 Publications
 ======
@@ -61,4 +60,4 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Currently I am organiizing the PhD seminar at University of Chile. 
