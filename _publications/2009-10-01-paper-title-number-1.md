@@ -3,7 +3,7 @@ title: "Distributed interactive proofs for the recognition of some geometric int
 collection: publications
 permalink: /publication/geomtricrecognition
 excerpt: 'Distributed recognition of geometric graph classes: permutation, trapezoid and circle graphs.'
-date: 2022
+date: 1-1-2022
 paperurl: 'https://arxiv.org/pdf/2112.03206'
 
 ---
