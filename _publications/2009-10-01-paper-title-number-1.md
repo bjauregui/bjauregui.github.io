@@ -4,6 +4,7 @@ collection: publications
 permalink: /publication/geomtricrecognition
 excerpt: 'Distributed recognition of geometric graph classes: permutation, trapezoid and circle graphs.'
 date: 2022-01-01
+venue: 'SIROCCO 2022'
 paperurl: 'https://arxiv.org/pdf/2112.03206'
 
 ---
