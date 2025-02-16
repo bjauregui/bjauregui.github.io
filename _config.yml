@@ -22,11 +22,11 @@ repository               : "bjauregui/bjauregui.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "me.jpg"
+  avatar           : "me.png"
   name             : "Benjamin Jauregui"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
+  bio              : # "Short biography for the left-hand sidebar"
+  location         : "Santiago, Chile"
   employer         : "Universidad de Chile"
   uri              : # URL
   email            : "bjauregui@dim.uchile.cl" 
@@ -45,7 +45,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "bjauregui"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
