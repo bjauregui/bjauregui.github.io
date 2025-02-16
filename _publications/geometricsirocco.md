@@ -3,7 +3,7 @@ title: "Distributed interactive proofs for the recognition of some geometric int
 collection: publications
 category: conferences
 permalink: /publication/geometricsirocco
-date: 2022-02
+date: 2022-02-01
 venue: 'SIROCCO'
 paperurl: 'http://academicpages.github.io/files/geometricsirocco.pdf'
 ---
