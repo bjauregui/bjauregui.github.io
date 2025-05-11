@@ -10,7 +10,7 @@ redirect_from:
 About me
 ======
 
-Hi! I am Benjamin Jauregui, a third year PhD student at Universidad de Chile. My main line of research is the study of discrete problems in modern model of computing, such as parallel and distributed computing. My advisors are Ivan Rapaport and Pedro Montealegre.
+Hi! I am Benjamin Jauregui, a third year PhD student at Universidad de Chile. My main line of research is the study of discrete problems in modern model of computing, such as parallel and distributed computing. 
 
 
 Besides my main line of research, I am interested in diverse topics: The intersection of distributed primitives in other areas, such as blockchain and cryptography, how to apply distributed computing in practice and the model or real world problems in Julia.
