@@ -18,3 +18,7 @@ Besides my main line of research, I am interested in diverse topics: The interse
 
 News
 ======
+
+- **10 May 2025** — Paper *Deterministic Tree-Width* accepted at  
+  [PODC 2025](https://sigops.org/s/conferences/podc/2025/) ·
+  [PDF](/assets/papers/dtw_podc25.pdf)
