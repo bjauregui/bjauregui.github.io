@@ -19,5 +19,5 @@ Besides my main line of research, I am interested in diverse topics: The interse
 News
 ======
 
-- **April 2025** — Our Paper *Deterministic Distributed DFS via Cycle Separators in Planar Graphs* has been **accepted** at  PODC 25' ! [Arxiv version](https://arxiv.org/abs/2504.21620).
-- **April 2025** — Our Paper *Compact Distributed Certification of Geometric Graph Classes* has been **accepted** at  JCSS!  [Arxiv version](https://arxiv.org/abs/2309.04789).
+- **April 2025** — Our Paper *Deterministic Distributed DFS via Cycle Separators in Planar Graphs* has been **accepted** at  PODC 25' ! [[Arxiv version]](https://arxiv.org/abs/2504.21620).
+- **April 2025** — Our Paper *Compact Distributed Certification of Geometric Graph Classes* has been **accepted** at  JCSS!  [\[Arxiv version\]](https://arxiv.org/abs/2309.04789).
