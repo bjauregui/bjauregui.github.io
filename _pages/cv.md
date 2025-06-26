@@ -12,15 +12,15 @@ redirect_from:
 Education
 ======
 * Ph.D in Mathematical Modeling, University of Chile, 2026 (expected)
+* B.S. Applied Math, University of Chile, 2022
 * Mathematical Engineering, University of Chile, 2022
-* B.S. Applied Math,University of Chile, 2021
 
 Work experience
 ======
 
 * Teacher Assistant
   * Universidad de Chile
-  * Courses: Calculus Integer Linear Programming, Optimization, Probabilities, Statistics, Combinatorial Algorithms, Computational Complexity, Discrete Maths, etc.
+  * Courses: Mixed Linear Programming, Optimization, Probabilities, Statistics, Combinatorial Algorithms, Computational Complexity, Discrete Maths, etc.
   
 Skills
 ======
