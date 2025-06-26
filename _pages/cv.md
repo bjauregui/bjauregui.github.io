@@ -12,7 +12,6 @@ redirect_from:
 Education
 ======
 * Ph.D in Mathematical Modeling, University of Chile, 2026 (expected)
-* M.S. Applied Math, GitHub University, 2022
 * Mathematical Engineering, University of Chile, 2022
 * B.S. Applied Math,University of Chile, 2021
 
