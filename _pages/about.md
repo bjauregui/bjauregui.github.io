@@ -10,10 +10,9 @@ redirect_from:
 About me
 ======
 
-Hi! I am Benjamin Jauregui, a third year PhD student at Universidad de Chile. My main line of research is the study of discrete problems in modern model of computing, such as parallel and distributed computing. 
+Hi! I'm Benjamin Jauregui, a third-year PhD student at Universidad de Chile and Université Paris Cité. My research focuses on discrete problems in modern computational models, particularly in parallel and distributed computing.
 
-
-Besides my main line of research, I am interested in diverse topics: The intersection of distributed primitives in other areas, such as blockchain and cryptography, how to apply distributed computing in practice and the model or real world problems in Julia.
+Beyond my main research area, I'm also interested in the intersection of distributed computing with other domains—such as blockchain and cryptography—as well as the practical applications of distributed algorithms and the modeling of real-world problems.
 
 News
 ======
