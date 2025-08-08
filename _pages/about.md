@@ -10,9 +10,9 @@ redirect_from:
 About me
 ======
 
-Hi! I'm Benjamin Jauregui, a third-year PhD student at Universidad de Chile and Université Paris Cité. My research focuses on discrete problems in modern computational models, particularly in parallel and distributed computing.
+Hi! I'm Benjamin Jauregui, a third-year PhD student at IRIF, Université Paris Cité and Universidad de Chile. My research focuses on discrete problems in modern computational models, particularly in parallel and distributed computing.
 
-Beyond my main research area, I'm also interested in the intersection of distributed computing with other domains—such as blockchain and cryptography—as well as the practical applications of distributed algorithms and the modeling of real-world problems.
+Beyond my main research area, I'm also interested in the intersection of distributed computing with other domains—such as optimization and cryptography—as well as the practical applications of distributed algorithms and the modeling of real-world problems.
 
 News
 ======
