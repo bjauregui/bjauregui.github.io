@@ -12,7 +12,7 @@ site_theme               : "dark"
 title                    : "Personal Page"
 title_separator          : "-"
 name                     : &name "Benjamin Jauregui"
-description              : &description "PhD(c) at Universidad de Chile"
+description              : &description "PhD(c) at IRIF, UPC"
 url                      : https://bjauregui.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "bjauregui/bjauregui.github.io"
@@ -26,10 +26,10 @@ author:
   name             : "Benjamin Jauregui"
   pronouns         : # example: "she/her"  
   bio              : # "Short biography for the left-hand sidebar"
-  location         : "Santiago, Chile"
-  employer         : "Universidad de Chile"
+  location         : "Paris, France"
+  employer         : "Université Paris Cité"
   uri              : # URL
-  email            : "bjauregui@dim.uchile.cl" 
+  email            : "bjauregui@irif.fr" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile

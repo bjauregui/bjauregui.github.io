@@ -1,5 +1,5 @@
 ---
-layout: single        # usa un diseño sencillo que solo renderiza el contenido
+layout: single        
 title: "Publications"
 permalink: /publications/
 author_profile: true

@@ -18,6 +18,8 @@ Education
 Work experience
 ======
 
+* Prof
+
 * Teacher Assistant
   * Universidad de Chile
   * Courses: Mixed Linear Programming, Optimization, Probabilities, Statistics, Combinatorial Algorithms, Computational Complexity, Discrete Maths, etc.
