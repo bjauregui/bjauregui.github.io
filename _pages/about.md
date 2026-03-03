@@ -18,5 +18,5 @@ News
 ======
 
 
-- **March, 2025** — \textit{New Preprint:} Strong and Hiding Distributed Certification of Bipartiteness. Joint work with Augusto Modanese, Pedro Montealegre and Martín Ríos-Wilson. You can see the preprint [here](https://arxiv.org/html/2502.13854v3).
+- **March, 2025** — *New Preprint:* Strong and Hiding Distributed Certification of Bipartiteness. Joint work with Augusto Modanese, Pedro Montealegre and Martín Ríos-Wilson. You can see the preprint [here](https://arxiv.org/html/2502.13854v3).
 
