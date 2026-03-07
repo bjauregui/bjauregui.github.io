@@ -10,7 +10,7 @@ redirect_from:
 About me
 ======
 
-Hi! I'm Benjamin Jauregui, a third-year PhD student at IRIF, Université Paris Cité and Universidad de Chile. My research focuses on discrete problems in modern computational models, particularly in streaming, quantum and distributed computing.
+Hi! I'm Benjamin Jauregui, a third-year PhD student at IRIF, Université Paris Cité (advised by [Pierre Fraigniaud](https://www.irif.fr/users/pierref/index)) and Universidad de Chile (advised by [Pedro Montealegre](https://sites.google.com/view/pedro-montealegre/home) and [Iván Rapaport](https://www.dim.uchile.cl/~rapaport/)). My research focuses on discrete problems in modern computational models, particularly in distributed computing. 
 
 Beyond my main research area, I'm also interested in the intersection of these fields with other domains—such as optimization and cryptography—as well as the practical applications of discrete and continuous algorithms to model real-world problems.
 
