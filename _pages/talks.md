@@ -1,7 +1,7 @@
 ---
 layout: single
 title: ""
-permalink: /researchactivities/
+permalink: /research-activities/
 author_profile: true
 ---
 
