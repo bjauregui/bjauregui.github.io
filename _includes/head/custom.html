@@ -1,36 +1,91 @@
+{% include base_path %}
+
+<script>
+  (function () {
+    const savedTheme = localStorage.getItem("theme");
+    const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+    const theme = savedTheme || "dark";
+    document.documentElement.setAttribute("data-theme", theme);
+  })();
+</script>
+
 <style>
-    #site-nav {
-      display: flex;
-      align-items: center;
+  html[data-theme="dark"] {
+    --global-bg-color: #121212;
+    --global-base-color: #121212;
+    --global-border-color: #2b2b2b;
+    --global-text-color: #f2f2f2;
+    --global-text-color-light: #cfcfcf;
+    --global-link-color: #6ec1e4;
+    --global-link-color-hover: #9dd8ef;
+    --global-masthead-link-color: #f2f2f2;
+    --global-masthead-link-color-hover: #cfcfcf;
+  }
+
+  html[data-theme="light"] {
+    --global-bg-color: #ffffff;
+    --global-base-color: #ffffff;
+    --global-border-color: #dddddd;
+    --global-text-color: #222222;
+    --global-text-color-light: #666666;
+    --global-link-color: #0077aa;
+    --global-link-color-hover: #005f88;
+    --global-masthead-link-color: #222222;
+    --global-masthead-link-color-hover: #555555;
+  }
+
+  html, body {
+    transition: background-color 0.25s ease, color 0.25s ease;
+  }
+
+  #theme-toggle {
+    margin-left: 1rem;
+    padding: 0.35rem 0.75rem;
+    border: 1px solid var(--global-border-color);
+    border-radius: 999px;
+    background: transparent;
+    color: var(--global-masthead-link-color);
+    font-size: 0.9rem;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+
+  #theme-toggle:hover {
+    color: var(--global-masthead-link-color-hover);
+    border-color: var(--global-masthead-link-color-hover);
+  }
+</style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const nav = document.querySelector("#site-nav .visible-links");
+    if (!nav) return;
+
+    if (!document.getElementById("theme-toggle")) {
+      const li = document.createElement("li");
+      li.className = "masthead__menu-item";
+
+      const button = document.createElement("button");
+      button.id = "theme-toggle";
+      button.type = "button";
+      button.setAttribute("aria-label", "Cambiar tema");
+
+      function updateButton(theme) {
+        button.textContent = theme === "dark" ? "☀️" : "🌙";
+      }
+
+      let currentTheme = document.documentElement.getAttribute("data-theme") || "dark";
+      updateButton(currentTheme);
+
+      button.addEventListener("click", function () {
+        currentTheme = currentTheme === "dark" ? "light" : "dark";
+        document.documentElement.setAttribute("data-theme", currentTheme);
+        localStorage.setItem("theme", currentTheme);
+        updateButton(currentTheme);
+      });
+
+      li.appendChild(button);
+      nav.appendChild(li);
     }
-  
-    #site-nav .visible-links {
-      display: flex;
-      align-items: center;
-    }
-  
-    #site-nav .masthead__menu-item {
-      display: flex;
-      align-items: center;
-    }
-  
-    #theme-toggle {
-      margin-left: 1rem;
-      padding: 0.35rem 0.75rem;
-      border: 1px solid var(--global-border-color);
-      border-radius: 999px;
-      background: transparent;
-      color: var(--global-masthead-link-color);
-      font-size: 0.9rem;
-      cursor: pointer;
-      white-space: nowrap;
-      line-height: 1.2;
-      position: relative;
-      top: -3px;
-    }
-  
-    #theme-toggle:hover {
-      color: var(--global-masthead-link-color-hover);
-      border-color: var(--global-masthead-link-color-hover);
-    }
-  </style>
+  });
+</script>
