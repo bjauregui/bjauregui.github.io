@@ -1,116 +1,91 @@
 {% include base_path %}
 
-<!-- start custom head snippets -->
-
-<!-- favicon from https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_academic-progressive.svg -->
-<link rel="apple-touch-icon" sizes="180x180" href="{{ base_path }}/images/apple-touch-icon-180x180.png"/>
-<link rel="icon" type="image/svg+xml" href="{{ base_path }}/images/favicon.svg"/>
-<link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-32x32.png" sizes="32x32"/>
-<link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-192x192.png" sizes="192x192"/>
-<link rel="manifest" href="{{ base_path }}/images/manifest.json"/>
-<link rel="icon" href="/images/favicon.ico"/>
-<meta name="theme-color" content="#ffffff"/>
-<link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
-
-
-<!-- Support for MatJax -->
-<script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-
-<!-- end custom head snippets -->
-
-{% include base_path %}
+<script>
+  (function () {
+    const savedTheme = localStorage.getItem("theme");
+    const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+    const theme = savedTheme || "dark";
+    document.documentElement.setAttribute("data-theme", theme);
+  })();
+</script>
 
 <style>
-  :root {
-    --transition-theme: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease;
-  }
-
-  /* Tema oscuro por defecto */
   html[data-theme="dark"] {
-    --global-bg-color: #121212;          /* negro suave */
+    --global-bg-color: #121212;
     --global-base-color: #121212;
-    --global-border-color: #2a2a2a;
-    --global-text-color: #f3f3f3;
+    --global-border-color: #2b2b2b;
+    --global-text-color: #f2f2f2;
     --global-text-color-light: #cfcfcf;
-    --global-link-color: #4db6d6;
-    --global-link-color-hover: #7ccbe3;
-    --global-link-color-visited: #8fd3e8;
-    --global-masthead-link-color: #f3f3f3;
-    --global-masthead-link-color-hover: #bdbdbd;
-    --global-code-background-color: #f5f5f5;
-    --global-code-text-color: #222;
-    --global-fig-caption-color: #b8b8b8;
-    --global-thead-color: #e9e9e9;
+    --global-link-color: #6ec1e4;
+    --global-link-color-hover: #9dd8ef;
+    --global-masthead-link-color: #f2f2f2;
+    --global-masthead-link-color-hover: #cfcfcf;
   }
 
-  /* Tema claro */
   html[data-theme="light"] {
     --global-bg-color: #ffffff;
-    --global-base-color: #7a8288;
-    --global-border-color: #ececec;
+    --global-base-color: #ffffff;
+    --global-border-color: #dddddd;
     --global-text-color: #222222;
     --global-text-color-light: #666666;
-    --global-link-color: #2f7f93;
-    --global-link-color-hover: #1f5c6b;
-    --global-link-color-visited: #5ca0b1;
+    --global-link-color: #0077aa;
+    --global-link-color-hover: #005f88;
     --global-masthead-link-color: #222222;
     --global-masthead-link-color-hover: #555555;
-    --global-code-background-color: #fafafa;
-    --global-code-text-color: #222222;
-    --global-fig-caption-color: #666666;
-    --global-thead-color: #efefef;
   }
 
-  html, body, .masthead, .page__footer, .sidebar, .archive, .page {
-    transition: var(--transition-theme);
+  html, body {
+    transition: background-color 0.25s ease, color 0.25s ease;
   }
 
-  .theme-toggle {
+  #theme-toggle {
     margin-left: 1rem;
-    padding: 0.45rem 0.8rem;
+    padding: 0.35rem 0.75rem;
     border: 1px solid var(--global-border-color);
     border-radius: 999px;
     background: transparent;
     color: var(--global-masthead-link-color);
-    cursor: pointer;
     font-size: 0.9rem;
-    line-height: 1;
+    cursor: pointer;
+    white-space: nowrap;
   }
 
-  .theme-toggle:hover {
+  #theme-toggle:hover {
     color: var(--global-masthead-link-color-hover);
     border-color: var(--global-masthead-link-color-hover);
   }
 </style>
 
 <script>
-  (function () {
-    const savedTheme = localStorage.getItem("theme");
-    const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-    const theme = savedTheme || (prefersDark ? "dark" : "light");
-    document.documentElement.setAttribute("data-theme", theme);
-  })();
-</script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const nav = document.querySelector("#site-nav .visible-links");
+    if (!nav) return;
 
+    if (!document.getElementById("theme-toggle")) {
+      const li = document.createElement("li");
+      li.className = "masthead__menu-item";
 
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-      const button = document.getElementById("theme-toggle");
-      if (!button) return;
-  
+      const button = document.createElement("button");
+      button.id = "theme-toggle";
+      button.type = "button";
+      button.setAttribute("aria-label", "Cambiar tema");
+
       function updateButton(theme) {
         button.textContent = theme === "dark" ? "☀️ Claro" : "🌙 Oscuro";
       }
-  
+
       let currentTheme = document.documentElement.getAttribute("data-theme") || "dark";
       updateButton(currentTheme);
-  
+
       button.addEventListener("click", function () {
         currentTheme = currentTheme === "dark" ? "light" : "dark";
         document.documentElement.setAttribute("data-theme", currentTheme);
         localStorage.setItem("theme", currentTheme);
         updateButton(currentTheme);
       });
-    });
-  </script>
+
+      li.appendChild(button);
+      nav.appendChild(li);
+    }
+  });
+</script>
