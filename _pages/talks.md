@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Talks and others"
+title: ""
 permalink: /researchactivities/
 author_profile: true
 ---
