@@ -7,10 +7,12 @@ author_profile: true
 
 ## Talks 
 
-# 2025
+### 2025
 
 
 -[Modern Optimization Methods and Models in Algorithm Design (MoMA)](https://www.irif.fr/moma). Aussois, France. November 2025.
+ **Distributed Courcelle's Theorem in the CONGEST model**. 
+ -Algorithms and complexity Seminar. IRIF, Paris, France. September 2025.
  **Distributed Courcelle's Theorem in the CONGEST model**. 
 - PODC 2025. Huatulco, México. June 2025.
 Presenting [this paper](https://dl.acm.org/doi/10.1145/3732772.3733558).
@@ -18,7 +20,7 @@ Presenting [this paper](https://dl.acm.org/doi/10.1145/3732772.3733558).
 **Distributed DFS computation in planar graphs**.
 
 
-# 2024
+### 2024
 
 -  [LIFO seminar](https://www.univ-orleans.fr/lifo/seminaires) at Université d'Orléans. Orléans, France. October 2024.
 **Separator sets: Computation and application in distributed models**.
@@ -26,7 +28,7 @@ Presenting [this paper](https://dl.acm.org/doi/10.1145/3732772.3733558).
 **Local techniques in global problems**. 
 
 
-# 2023
+### 2023
 
 - PhD Seminar at Uchile. Santiago, Chile. August 2023.
 **Energy Efficient algorithms**. 
@@ -36,7 +38,10 @@ Presenting [this paper](https://dl.acm.org/doi/10.1145/3732772.3733558).
 
 ## Conferences and workshops
 
-- **Deterministic Distributed DFS via Cycle Separators in Planar Graphs**. PODC. Huatulco, México. June 2025. Presenting .
+- Modern Optimization Methods and Models in Algorithm Design. Aussois, France. November 2025.
+- Distributed Quantum Computing Workshop 2025. Helsinki, Finland. October 2025.
+- PODC 2025. Huatulco, México. June 2025. 
+- DISC 2024. Madrid, Spain. October 2024.
 
 ## Research Visits
 
