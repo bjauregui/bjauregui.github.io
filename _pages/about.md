@@ -18,9 +18,9 @@ News
 ======
 
 
-- **April, 2026** — Our paper **Distributed Treewidth Computation and Courcelle's Theorem in the CONGEST Model** was accepted at PODC 2026! You can see the preprint [here](https://arxiv.org/abs/1805.10708).
+- *April, 2026* — Our paper **Distributed Treewidth Computation and Courcelle's Theorem in the CONGEST Model** was accepted at PODC 2026! You can see the preprint [here](https://arxiv.org/abs/1805.10708).
 
-- **April, 2026** — Our paper **Distributed Statistical Zero-Knowledge Proofs via Sumcheck** will appear at PODC 2026 as brief announcement! Preprint coming soon.
+- *April, 2026* — Our paper **Distributed Statistical Zero-Knowledge Proofs via Sumcheck** will appear at PODC 2026 as brief announcement! Preprint coming soon.
 
 
 
