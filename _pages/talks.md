@@ -9,6 +9,8 @@ author_profile: true
 
 ### 2025
 
+1. **CONGEST algorithms in sparse graph classes.** ENEDISC LaBRI Meeting - Bourdeaux, France, April 2026. 
+
 1. **Distributed Courcelle's Theorem in the CONGEST model**, Algorithms and Complexity Seminar, IRIF — Paris, France, September 2025.
 
 1. **Distributed Courcelle's Theorem in the CONGEST model**, [MoMA](https://www.irif.fr/moma) — Aussois, France, November 2025.
