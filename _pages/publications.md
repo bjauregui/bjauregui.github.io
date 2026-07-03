@@ -16,11 +16,12 @@ You can also check my publications on my [Google Scholar](https://scholar.google
 
 1. **Distributed Statistical Zero-Knowledge Proofs via Sumcheck**.  
    *with Masayuki Miyamoto*. **PODC 2026 (brief announcement)**.
+   [[full version](https://arxiv.org/abs/2605.14015)]
   
 
 1. **Deterministic Distributed DFS via Cycle Separators in Planar Graphs**.  
    *with Pedro Montealegre and Ivan Rapaport*. **PODC 2025**.  
-   [[full version](https://arxiv.org/abs/2504.21620)] [[Publisher](https://dl.acm.org/doi/10.1145/3732772.3733558)]
+   [[full version](https://arxiv.org/abs/2504.21620)] [[conference version](https://dl.acm.org/doi/10.1145/3732772.3733558)]
 
 1. **Compact Distributed Certification of Geometric Graph Classes**.  
    *with Pedro Montealegre, Ivan Rapaport and Diego Ramirez-Romero*. **JCSS**.  
