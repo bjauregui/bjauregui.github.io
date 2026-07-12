@@ -13,7 +13,8 @@ author_profile: true
 1. **CONGEST algorithms in sparse graph classes.** ENEDISC LaBRI Meeting - Bourdeaux, France. 
 
 1. **Distributed treewidth Computation and Courcelle's Theorem in CONGEST model**. PODC - Egham, UK.
-[slides](/files/podc-courcelle.pdf)
+
+[[slides](/files/podc-courcelle.pdf)]
 ### 2025
 
 
