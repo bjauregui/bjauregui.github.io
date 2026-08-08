@@ -8,17 +8,9 @@
       <span>with</span> {{ include.paper.authors }}
     </p>
 
-    {% if include.paper.venue %}
+    {% if include.paper.venue or include.paper.year or include.paper.note %}
       <p class="publication-entry__venue">
-        <span class="publication-entry__venue-name">{{ include.paper.venue }}</span>{% if include.paper.year %}, {{ include.paper.year }}{% endif %}{% if include.paper.note %} <span class="publication-entry__note">— {{ include.paper.note }}</span>{% endif %}
-      </p>
-    {% endif %}
-
-    {% if include.paper.links %}
-      <p class="publication-entry__links" aria-label="Available versions">
-        {% for link in include.paper.links %}
-          <a href="{{ link.url }}">{{ link.label }}</a>{% unless forloop.last %}<span aria-hidden="true">·</span>{% endunless %}
-        {% endfor %}
+        {% if include.paper.venue %}{{ include.paper.venue }}{% endif %}{% if include.paper.venue and include.paper.year %}, {% endif %}{% if include.paper.year %}{{ include.paper.year }}{% endif %}{% if include.paper.note %} — {{ include.paper.note }}{% endif %}
       </p>
     {% endif %}
   </article>
