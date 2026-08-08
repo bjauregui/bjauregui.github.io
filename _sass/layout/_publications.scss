@@ -1,0 +1,129 @@
+/* ==========================================================================
+   PUBLICATIONS
+   ========================================================================== */
+
+.publications-page {
+  max-width: 800px;
+}
+
+.publications-page__intro {
+  margin: 0 0 2.25rem;
+  color: var(--global-text-color-light);
+  font-size: 0.92rem;
+}
+
+.publications-page__section {
+  margin-top: 3.25rem;
+  padding-top: 1.75rem;
+  border-top: 1px solid var(--global-border-color);
+}
+
+.page__content .publications-page__section h2 {
+  margin: 0 0 1.6rem;
+  padding: 0;
+  border: 0;
+  font-size: 1.55rem;
+  font-weight: 400;
+}
+
+.publication-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: publication;
+}
+
+.publication-list__item {
+  display: grid;
+  grid-template-columns: 2rem minmax(0, 1fr);
+  gap: 0.85rem;
+  margin: 0 0 1.7rem;
+  counter-increment: publication;
+}
+
+.publication-list__item::before {
+  padding-top: 0.12rem;
+  color: var(--global-text-color-light);
+  content: counter(publication) ".";
+  font-size: 0.78rem;
+  font-variant-numeric: tabular-nums;
+  font-weight: 400;
+  text-align: right;
+}
+
+.publication-entry {
+  min-width: 0;
+}
+
+.page__content .publication-entry__title {
+  margin: 0;
+  font-size: 1.06rem;
+  font-weight: 500;
+  letter-spacing: -0.008em;
+  line-height: 1.38;
+}
+
+.publication-entry__title a {
+  color: var(--global-link-color);
+
+  &:hover {
+    color: var(--global-link-color-hover);
+  }
+}
+
+.publication-entry__authors,
+.publication-entry__venue,
+.publication-entry__links {
+  margin: 0;
+}
+
+.publication-entry__authors {
+  margin-top: 0.25rem;
+  color: var(--global-text-color);
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+.publication-entry__authors > span {
+  color: var(--global-text-color-light);
+}
+
+.publication-entry__venue {
+  margin-top: 0.18rem;
+  color: var(--global-text-color-light);
+  font-size: 0.88rem;
+  line-height: 1.5;
+}
+
+.publication-entry__venue-name {
+  color: var(--global-accent-color);
+  font-weight: 500;
+}
+
+.publication-entry__note {
+  color: var(--global-text-color-light);
+}
+
+.publication-entry__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.6rem;
+  margin-top: 0.38rem;
+  font-size: 0.76rem;
+  line-height: 1.5;
+}
+
+.publication-entry__links > span {
+  color: var(--global-border-color);
+}
+
+@media (max-width: 600px) {
+  .publication-list__item {
+    grid-template-columns: 1.45rem minmax(0, 1fr);
+    gap: 0.6rem;
+  }
+
+  .publication-entry__title {
+    font-size: 1rem;
+  }
+}

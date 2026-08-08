@@ -1,41 +1,31 @@
 ---
-layout: single        
+layout: single
 title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
 
+<div class="publications-page">
+  <p class="publications-page__intro">
+    You can also find my work on
+    <a href="https://scholar.google.com/citations?user=eeS-QRwAAAAJ&amp;hl=en">Google Scholar <span aria-hidden="true">↗</span></a>.
+  </p>
 
-You can also check my publications on my [Google Scholar](https://scholar.google.com/citations?user=eeS-QRwAAAAJ&hl=es&oi=sra).
+  <section aria-labelledby="published-work-title">
+    <h2 id="published-work-title" class="visually-hidden">Published work</h2>
+    <ol class="publication-list">
+      {% for paper in site.data.publications.peer_reviewed %}
+        {% include publication-item.html paper=paper %}
+      {% endfor %}
+    </ol>
+  </section>
 
-## Publications
-
-1. **Distributed Treewidth Computation and Courcelle's Theorem in the CONGEST Model**.  
-   *with Jason Li, Pedro Montealegre and Ioan Todican*. **PODC 2026**.
-   [[full version](https://arxiv.org/abs/1805.10708)]
-
-1. **Distributed Statistical Zero-Knowledge Proofs via Sumcheck**.  
-   *with Masayuki Miyamoto*. **PODC 2026 (brief announcement)**.
-   [[full version](https://arxiv.org/abs/2605.14015)]
-  
-
-1. **Deterministic Distributed DFS via Cycle Separators in Planar Graphs**.  
-   *with Pedro Montealegre and Ivan Rapaport*. **PODC 2025**.  
-   [[full version](https://arxiv.org/abs/2504.21620)] [[conference version](https://dl.acm.org/doi/10.1145/3732772.3733558)]
-
-1. **Compact Distributed Certification of Geometric Graph Classes**.  
-   *with Pedro Montealegre, Ivan Rapaport and Diego Ramirez-Romero*. **JCSS**.  
-   [[full version](https://arxiv.org/abs/2309.04789)]
-
-1. **Distributed Interactive Proofs for the Recognition of Some Geometric Intersection Graph Classes**.  
-   *with Pedro Montealegre and Ivan Rapaport*. **SIROCCO 2022**.  
-   [[full version](https://arxiv.org/pdf/2112.03206)]
-
----
-
-## Preprints
-
-1. **Strong and Hiding Distributed Certification of Bipartiteness**.  
-   *with Augusto Modanese, Pedro Montealegre and Martín Ríos-Wilson*. Preprint.  
-   [[preprint](https://arxiv.org/html/2502.13854v3)]
-
+  <section class="publications-page__section" aria-labelledby="preprints-title">
+    <h2 id="preprints-title">Preprints</h2>
+    <ol class="publication-list">
+      {% for paper in site.data.publications.preprints %}
+        {% include publication-item.html paper=paper %}
+      {% endfor %}
+    </ol>
+  </section>
+</div>

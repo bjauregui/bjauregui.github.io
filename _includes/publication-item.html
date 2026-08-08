@@ -1,0 +1,23 @@
+<li class="publication-list__item">
+  <article class="publication-entry">
+    <h3 class="publication-entry__title">
+      <a href="{{ include.paper.links[0].url }}">{{ include.paper.title }}</a>
+    </h3>
+
+    <p class="publication-entry__authors">
+      <span>with</span> {{ include.paper.authors }}
+    </p>
+
+    <p class="publication-entry__venue">
+      <span class="publication-entry__venue-name">{{ include.paper.venue }}</span>{% if include.paper.year %}, {{ include.paper.year }}{% endif %}{% if include.paper.note %} <span class="publication-entry__note">— {{ include.paper.note }}</span>{% endif %}
+    </p>
+
+    {% if include.paper.links %}
+      <p class="publication-entry__links" aria-label="Available versions">
+        {% for link in include.paper.links %}
+          <a href="{{ link.url }}">{{ link.label }} <span aria-hidden="true">↗</span></a>{% unless forloop.last %}<span aria-hidden="true">·</span>{% endunless %}
+        {% endfor %}
+      </p>
+    {% endif %}
+  </article>
+</li>

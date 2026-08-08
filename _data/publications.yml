@@ -1,0 +1,50 @@
+peer_reviewed:
+  - title: "Distributed Treewidth Computation and Courcelle's Theorem in the CONGEST Model"
+    authors: "Jason Li, Pedro Montealegre, and Ioan Todican"
+    venue: "ACM Symposium on Principles of Distributed Computing (PODC)"
+    year: 2026
+    links:
+      - label: "Full version"
+        url: "https://arxiv.org/abs/1805.10708"
+
+  - title: "Distributed Statistical Zero-Knowledge Proofs via Sumcheck"
+    authors: "Masayuki Miyamoto"
+    venue: "ACM Symposium on Principles of Distributed Computing (PODC)"
+    year: 2026
+    note: "Brief announcement"
+    links:
+      - label: "Full version"
+        url: "https://arxiv.org/abs/2605.14015"
+
+  - title: "Deterministic Distributed DFS via Cycle Separators in Planar Graphs"
+    authors: "Pedro Montealegre and Ivan Rapaport"
+    venue: "ACM Symposium on Principles of Distributed Computing (PODC)"
+    year: 2025
+    links:
+      - label: "Full version"
+        url: "https://arxiv.org/abs/2504.21620"
+      - label: "Conference version"
+        url: "https://dl.acm.org/doi/10.1145/3732772.3733558"
+
+  - title: "Compact Distributed Certification of Geometric Graph Classes"
+    authors: "Pedro Montealegre, Ivan Rapaport, and Diego Ramirez-Romero"
+    venue: "Journal of Computer and System Sciences (JCSS)"
+    links:
+      - label: "Full version"
+        url: "https://arxiv.org/abs/2309.04789"
+
+  - title: "Distributed Interactive Proofs for the Recognition of Some Geometric Intersection Graph Classes"
+    authors: "Pedro Montealegre and Ivan Rapaport"
+    venue: "International Colloquium on Structural Information and Communication Complexity (SIROCCO)"
+    year: 2022
+    links:
+      - label: "Full version"
+        url: "https://arxiv.org/pdf/2112.03206"
+
+preprints:
+  - title: "Strong and Hiding Distributed Certification of Bipartiteness"
+    authors: "Augusto Modanese, Pedro Montealegre, and Martín Ríos-Wilson"
+    venue: "Preprint"
+    links:
+      - label: "Preprint"
+        url: "https://arxiv.org/html/2502.13854v3"
