@@ -3,18 +3,18 @@
    ========================================================================== */
 
 /* Color codes used for the theme */
-$gray                       : #7a8288;
-$dark-gray                  : mix(#000, $gray, 40%);
-$darker-gray                : mix(#000, $gray, 60%);
-$light-gray                 : mix(#fff, $gray, 50%);
+$gray                       : #b8b8ba;
+$dark-gray                  : #a4a4a6;
+$darker-gray                : #1f1f20;
+$light-gray                 : #b8b8ba;
 
-$background                 : #474747;
-$background-light           : mix(#fff, $background, 80%);
-$background-lighter         : mix(#fff, $background, 90%);
-$text                       : #ffffff;
-$link                       : #0ea1c5;
-$link-dark                  : mix(#000, $link, 25%);
-$link-light                 : mix(#fff, $link, 25%);
+$background                 : #1f1f20;
+$background-light           : #3a3a3c;
+$background-lighter         : #29292b;
+$text                       : #e8e8e8;
+$link                       : #2896ba;
+$link-dark                  : #54b3d1;
+$link-light                 : #72b4cb;
 
 /* Color codes used for the site */
 $danger-color               : #ee5f5b;
@@ -35,12 +35,12 @@ $sidebar-screen-min-width   : 1024px;
 
 /* Dark theme for the site */
 :root {
-    --global-base-color                 : #{$background};
+    --global-base-color                 : #{$background-light};
     --global-bg-color                   : #{$background};
     --global-border-color               : #{$background-light};
-    --global-code-background-color      : #fafafa;
-    --global-code-text-color            : #{$darker-gray};
-    --global-fig-caption-color          : #{$dark-gray};
+    --global-code-background-color      : #2a2a2c;
+    --global-code-text-color            : #{$text};
+    --global-fig-caption-color          : #{$light-gray};
     --global-link-color                 : #{$link};
     --global-link-color-hover           : #{$link-dark};
     --global-link-color-visited         : #{$link-light};    
