@@ -18,7 +18,20 @@
   border-top: 1px solid var(--global-border-color);
 }
 
-.page__content .publications-page__section h2 {
+.research-activities-page__section {
+  margin-top: 3.25rem;
+  padding-top: 1.75rem;
+  border-top: 1px solid var(--global-border-color);
+}
+
+.research-activities-page__section:first-child {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: 0;
+}
+
+.page__content .publications-page__section h2,
+.page__content .research-activities-page__section h2 {
   margin: 0 0 1.6rem;
   padding: 0;
   border: 0;
@@ -69,6 +82,10 @@
   &:hover {
     color: var(--global-link-color-hover);
   }
+}
+
+.publication-entry__title-text {
+  color: var(--global-text-color);
 }
 
 .page__content .publication-entry__authors,

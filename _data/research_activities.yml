@@ -1,0 +1,66 @@
+sections:
+  - id: talks
+    title: "Talks"
+    items:
+      - title: "CONGEST Algorithms in Sparse Graph Classes"
+        details: "ENEDISC LaBRI Meeting — Bordeaux, France, 2026"
+
+      - title: "Distributed Treewidth Computation and Courcelle's Theorem in the CONGEST Model"
+        details: "ACM Symposium on Principles of Distributed Computing (PODC) — Egham, UK, 2026"
+        url: "/files/podc-courcelle.pdf"
+
+      - title: "Distributed Courcelle's Theorem in the CONGEST Model"
+        details: "Algorithms and Complexity Seminar, IRIF — Paris, France, 2025"
+
+      - title: "Distributed Courcelle's Theorem in the CONGEST Model"
+        details: "Modern Optimization Methods and Models in Algorithm Design (MoMA) — Aussois, France, 2025"
+        url: "https://www.irif.fr/moma"
+
+      - title: "Deterministic Distributed DFS via Cycle Separators in Planar Graphs"
+        details: "ACM Symposium on Principles of Distributed Computing (PODC) — Huatulco, México, 2025"
+        url: "https://dl.acm.org/doi/10.1145/3732772.3733558"
+
+      - title: "Distributed DFS Computation in Planar Graphs"
+        details: "Discrete Summer School — Valparaíso, Chile, 2025"
+        url: "https://eventos.cmm.uchile.cl/discretas2025/"
+
+      - title: "Separator Sets: Computation and Application in Distributed Models"
+        details: "LIFO Seminar — Orléans, France, 2024"
+        url: "https://www.univ-orleans.fr/lifo/seminaires"
+
+      - title: "Local Techniques in Global Problems"
+        details: "Seminar of Complex Systems — Santiago, Chile, 2024"
+
+      - title: "Energy Efficient Algorithms"
+        details: "PhD Seminar — Santiago, Chile, 2023"
+
+  - id: conferences-workshops
+    title: "Conferences and Workshops"
+    items:
+      - title: "Modern Optimization Methods and Models in Algorithm Design (MoMA)"
+        details: "Aussois, France — November 2025"
+        url: "https://www.irif.fr/moma"
+
+      - title: "Distributed Quantum Computing Workshop"
+        details: "Helsinki, Finland — October 2025"
+
+      - title: "PODC 2025"
+        details: "Huatulco, México — June 2025"
+
+      - title: "DISC 2024"
+        details: "Madrid, Spain — October 2024"
+
+  - id: research-visits
+    title: "Research Visits"
+    items:
+      - title: "LIFO, Université d'Orléans"
+        details: "Orléans, France — October 2024 and June 2026"
+
+      - title: "IMDEA Networks"
+        details: "Madrid, Spain — November 2024"
+
+  - id: services
+    title: "Services"
+    items:
+      - title: "Reviewer"
+        details: "IWOCA 2026, PODC 2026, and DISC 2026"
