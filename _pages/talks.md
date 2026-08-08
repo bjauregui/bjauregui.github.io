@@ -2,7 +2,7 @@
 layout: single
 title: "Research Activities"
 permalink: /research-activities/
-author_profile: true
+author_profile: false
 ---
 
 ## Talks 

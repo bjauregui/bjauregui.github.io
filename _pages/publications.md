@@ -2,7 +2,7 @@
 layout: single
 title: "Publications"
 permalink: /publications/
-author_profile: true
+author_profile: false
 ---
 
 <div class="publications-page">
