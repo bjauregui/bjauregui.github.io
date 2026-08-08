@@ -50,6 +50,12 @@
 
 .page__content {
 
+  h1,
+  h2,
+  h3 {
+    color: var(--global-accent-color);
+  }
+
   h2 {
     padding-bottom: 0.5em;
     border-bottom: 1px solid var(--global-border-color);
@@ -73,7 +79,8 @@
   }
 
   a {
-    text-decoration: underline;
+    color: var(--global-link-color);
+    text-decoration: none;
 
     &:hover {
       text-decoration: underline;
@@ -87,7 +94,7 @@
   dt {
     margin-top: 1em;
     font-family: $sans-serif;
-    font-weight: bold;
+    font-weight: 500;
   }
 
   dd {
@@ -98,6 +105,25 @@
 
   .small {
     font-size: $type-size-6;
+  }
+
+  em {
+    color: var(--global-text-color-light);
+  }
+
+  ol > li {
+    margin-bottom: 1.15rem;
+  }
+
+  ol > li > strong:first-child {
+    color: var(--global-text-color);
+    font-size: 1.04em;
+    font-weight: 500;
+  }
+
+  ol > li > em + strong {
+    color: var(--global-accent-color);
+    font-weight: 500;
   }
 
   /* blockquote citations */

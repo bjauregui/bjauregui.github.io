@@ -9,9 +9,9 @@
 # Basic Site Settings
 locale                   : "Santiago, Chile"
 site_theme               : "dark"
-title                    : "Personal Page"
+title                    : "Benjamín Jáuregui"
 title_separator          : "-"
-name                     : &name "Benjamin Jauregui"
+name                     : &name "Benjamín Jáuregui"
 description              : &description "PhD(c) at IRIF, UPC"
 url                      : https://bjauregui.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -23,7 +23,7 @@ repository               : "bjauregui/bjauregui.github.io"
 author:
   # Biographic information
   avatar           : "me.png"
-  name             : "Benjamin Jauregui"
+  name             : "Benjamín Jáuregui"
   pronouns         : # example: "she/her"  
   bio              : # "Short biography for the left-hand sidebar"
   location         : "Paris, France"
