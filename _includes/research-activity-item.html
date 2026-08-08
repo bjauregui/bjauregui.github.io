@@ -1,11 +1,7 @@
 <li class="publication-list__item">
   <article class="publication-entry">
     <h3 class="publication-entry__title">
-      {% if include.activity.url %}
-        <a href="{{ include.activity.url }}">{{ include.activity.title }}</a>
-      {% else %}
-        <span class="publication-entry__title-text">{{ include.activity.title }}</span>
-      {% endif %}
+      <span class="publication-entry__title-text">{{ include.activity.title }}</span>
     </h3>
 
     {% if include.activity.details %}
