@@ -8,7 +8,7 @@ author_profile: true
 <div class="publications-page">
   <p class="publications-page__intro">
     You can also find my work on
-    <a href="https://scholar.google.com/citations?user=eeS-QRwAAAAJ&amp;hl=en">Google Scholar <span aria-hidden="true">↗</span></a>.
+    <a href="https://scholar.google.com/citations?user=eeS-QRwAAAAJ&amp;hl=en">Google Scholar</a>.
   </p>
 
   <section aria-labelledby="published-work-title">

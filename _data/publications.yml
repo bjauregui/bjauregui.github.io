@@ -44,7 +44,6 @@ peer_reviewed:
 preprints:
   - title: "Strong and Hiding Distributed Certification of Bipartiteness"
     authors: "Augusto Modanese, Pedro Montealegre, and Martín Ríos-Wilson"
-    venue: "Preprint"
     links:
-      - label: "Preprint"
+      - label: "Full version"
         url: "https://arxiv.org/html/2502.13854v3"
