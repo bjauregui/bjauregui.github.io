@@ -43,22 +43,29 @@ redirect_from:
     </div>
 
     <ol class="homepage-news__list">
+    <li>
+  <time datetime="2026-11">November 2026</time>
+  <p>
+    Our new preprint, <strong>Quantum Advantage in Local Certification of Graph Properties</strong>,
+    is now available on arXiv.
+    This is joint work with Masayuki Miyamoto.
+    <a href="https://arxiv.org/abs/2611.08076">Preprint</a>
+  </p>
+</li>
       <li>
-        <time datetime="2026-04">April 2026</time>
-        <p>
-          Our paper <strong>Distributed Treewidth Computation and Courcelle's
-          Theorem in the CONGEST Model</strong> was accepted at PODC 2026.
-          <a href="https://arxiv.org/abs/1805.10708">Preprint <span aria-hidden="true">↗</span></a>
-        </p>
-      </li>
-      <li>
-        <time datetime="2026-04">April 2026</time>
-        <p>
-          Our paper <strong>Distributed Statistical Zero-Knowledge Proofs via
-          Sumcheck</strong> will appear at PODC 2026 as a brief announcement.
-          <a href="https://arxiv.org/abs/2605.14015">Preprint <span aria-hidden="true">↗</span></a>
-        </p>
-      </li>
+  <time datetime="2026-10">October 2026</time>
+  <p>
+    Our paper <strong>Filling LOCAL Complexity Gaps in Unbounded-Degree Graphs</strong>
+    was accepted at <strong>OPODIS 2026</strong>.
+    This is joint work with Filippo Casagrande, Pierre Fraigniaud, and Mikaël Rabie.
+    <a href="https://arxiv.org/abs/2608.18684">Preprint</a>
+  </p>
+</li>
+  <time datetime="2026-08">August 2026</time>
+  <p>
+  I made a research visit to the University of Bergen, where I worked with Fedor Fomin and Petr Golovach.
+  </p>
+</li>
     </ol>
   </section>
 </div>
